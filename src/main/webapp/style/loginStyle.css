@@ -1,0 +1,41 @@
+.startPageContainer {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.startPageContainer * {
+    margin: 0;
+    padding: 0;
+}
+
+.formType {
+    width: 15%;
+}
+
+input {
+    margin-top: 2rem;
+    padding: 0.2rem;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+input[type = "text"],
+input[type = "password"] {
+    border-bottom: 2px solid #808080;
+    font-size: 1rem;
+}
+
+input[type = "submit"] {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #69b017;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+}
